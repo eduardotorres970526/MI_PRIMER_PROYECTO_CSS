@@ -7,17 +7,29 @@
     font-family: "Bebas Neue", serif;
 }
 
-.card{
-    
+body{
+    background-color: #55CECE;
+
+}
+.card{ 
+    width: 30rem;
+    background-color: gold;
+    border-radius: 10px;
 
 }
 
 .card-image-container{
-    width: 20rem;
+    width: 100%;
 }
 
 .card-image-container img{
     width: 100%;
+    
+}
+
+.card-info-container button{
+    border: none;
+    
     
 }
 
