@@ -1,0 +1,68 @@
+
+
+
+html{
+    font-size: 20px
+}
+
+h1{
+    font-size: 1rem;
+
+}
+
+div {
+    font-size: 40px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.rojo{
+    background-color: red;
+    width: 100vw;
+    height: calc(100vh/3)
+}
+
+.azul{
+    background-color: blue;
+    width: 100vw;
+    height: 33.33333vh
+}
+
+.amarillo{
+    background-color: yellow;
+    width: 100vw;
+    height: 33.33333vh
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1200px) {
+    .rojo{
+        background-color: blue;
+        width: 100vw;
+        height: calc(100vh/3)
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 700px) {
+    .azul{
+        background-color: green;
+        width: 100vw;
+        height: calc(100vh/3)
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 400px) {
+    .amarillo{
+        background-color: pink;
+        width: 100vw;
+        height: calc(100vh/3)
+    }
+
+}
+
